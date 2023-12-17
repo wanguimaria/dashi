@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+
+
+
+	<!DOCTYPE html>
 <html lang="en">
 <html>
 <head>
@@ -9,6 +12,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/ruang-admin.min.css" rel="stylesheet">
 </head>
 <body>
 	<div class="grid-container">
@@ -19,27 +25,13 @@
 			</div>
 		</header>
 		<aside id="sidebar">
-			 <div class="sidebar-title">
-        <div class="sidebar-brand">
-           <span class="material-icons-outlined">shopping_cart</span>Store
-        </div>
-         <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
-       </div>
-       <ul class="sidebar-list">
-        <li class="sidebar-list-item">
-           <span class="material-icons-outlined"></span>dashboard
-         </li>
-         <li class="sidebar-list-item">
-           <span class="material-icons-outlined"></span>invent
-         </li>
-         <li class="sidebar-list-item">
-           <span class="material-icons-outlined"></span>category
-         </li>
-         <li class="sidebar-list-item">
-           <span class="material-icons-outlined"></span>product
-         </li>
-         
-       </ul>
+	   <div class="sidebar-title"><span>Sales</span> dashboard</div>
+	   <ul class="sidebar-listing">
+	   	<li><i class="fas fa desktop"></i>Product</li>
+	   	<li>Categories</li>
+	   	<li>Customers</li>
+	   	<li>Alert</li>
+	   </ul>
     </aside>
 		
 		<main class="main-container">
@@ -84,15 +76,14 @@
 					<h2 class="chart-title">TOP 5 PRODUCTS</h2>
 					<div id="bar-chart"></div>
 				</div>
-				<div class="charts">
 				<div class="charts-card">
 					<h2 class="chart-title">sales and purchases</h2>
 					<div id="area-chart"></div>
-				
 				</div>
 			</div>
 		</main>
 	</div>
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.44.2/apexcharts.min.js"></script>
 <script src="Scripts.js"></script><!--put up here to speed the web page-->
 </body>

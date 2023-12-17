@@ -101,19 +101,17 @@ background-color: grey;
 	grid-template-columns: 1fr;
 	grid-template-rows: 0.2fr 3fr;
 	grid-template-areas: 
-	"header"
-	"sidebar"	
+	"header"	
 	"main";
 }
-#sidebar{
-	display: none;
+
 }
-.sidebar-title{
-	display: inline;
-}
-}
-/* small size*/
+	/* small size*/
 @media screen and (max-width: 768px){
+	.#sidebar{
+		grgrid-template-columns: 1fr;
+		gap: 10px;
+		margin-bottom: 0;
 	.main-cards{
 		grid-template-columns: 1fr;
 		gap: 10px;

@@ -116,7 +116,7 @@ background-color: grey;
   grid-template-columns: 1fr;
 }
 // medium size screen
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
 .grid-container{
 	grid-template-columns: 1fr;
 	grid-template-rows: 0.2fr 3fr;
@@ -136,7 +136,7 @@ background-color: grey;
 }
 /*EXTRA SMALL*/
 @media screen and (max-width: 576px){
-		.main-cards{
+	.main-cards{
 		grid-template-columns: 1fr;
 		gap: 10px;
 		margin-bottom: 0;

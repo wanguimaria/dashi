@@ -126,17 +126,16 @@ background-color: grey;
 }
 #sidebar{
 	display: none;
-	margin-top: 100px;
+}
+.menu-icon{
+	display: inline;
 }
 .sidebar-title{
-	display: none;
+	display: inline;
 }
 }
 /* small size*/
 @media screen and (max-width: 768px){
-}
-/*EXTRA SMALL*/
-@media screen and (max-width: 576px){
 	.main-cards{
 		grid-template-columns: 1fr;
 		gap: 10px;
@@ -147,6 +146,10 @@ background-color: grey;
 		margin-top: 30px;
 	}
 }
+/*EXTRA SMALL*/
+@media screen and (max-width: 576px){}
+
+
 
 
 

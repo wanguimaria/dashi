@@ -53,16 +53,29 @@ body{
 .sidebar-title span{
 	color: blue;
 	animation: backwards;
+	gap: 10px;
 }
 .sidebar-listing li {
 list-style-type: none;
 font-weight: bo;
 font-size: 15px;
 font-family: monospace;
+justify-content: space between;
+display: flex;
+gap: 10px;
 
+}
+.sidebar-listing li i{
+	
+	font-size: 15px;
 }
 .sidebar-listing li:hover{
 	color: blue;
+}
+.sidebar-responsive{
+	display: inline !important;
+	position: absolute;
+	z-index: 12 !important;
 }
 .main-container {
 	grid-area: main;
@@ -147,12 +160,14 @@ background-color: grey;
 	}
 }
 /*EXTRA SMALL*/
-@media screen and (max-width: 576px){}
-
-
-
-
-
-
+@media screen and (max-width: 576px){
+	#sidebar{
+		width: 50px;
+	}
+		.charts{
+		grid-template-columns: 1fr;
+		margin-top: 30px;
+	}
+}
 
 

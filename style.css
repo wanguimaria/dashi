@@ -161,18 +161,8 @@ background-color: grey;
 	}
 }
 /*EXTRA SMALL*/
-@media screen and (max-width: 576px){
-	#sidebar{
-		display: none;
-	}
+@media screen and (max-width: 576px{}
 	
-	.charts{
-		grid-template-columns: 1fr;
-		margin-top: 30px;
-	}
-	#header{
-		display: none;
-	}
-}
+		
 
 

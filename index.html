@@ -17,13 +17,14 @@
 <body>
 	<div class="grid-container">
 		<header class ="header">
-			<div class="menu-icon" onclick="sidebarOpen()">
+			<div class="menu-icon" onclick="openSidebar()">
 				<i class="fas fa-bars"></i>
 			</div>
 		</header>
 		<aside id="sidebar">
-	   <div class="sidebar-title"><span class="fas fa-shopping-cart" onclick="closeSidebar()">Sales</span> dashboard</div>
+	   <div class="sidebar-title" ><i class="fas fa-shopping-cart"></i><span>Sales</span> dashboard</div>
 	   <ul class="sidebar-listing">
+	   	<li onclick="closeSidebar()"><i class="fas fa-close"></i>close</li>
 	   	<li><i class="fas fa-key"></i>Product</li>
 	   	<li><i class="fas fa-tachometer"></i>Categories</li>
 	   	<li><i class="fas fa-group"></i>Customers</li>
@@ -88,5 +89,3 @@
 <script src="Scripts.js"></script><!--put up here to speed the web page-->
 </body>
 </html>
-
-

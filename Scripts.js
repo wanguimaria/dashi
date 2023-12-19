@@ -1,26 +1,22 @@
-var sidebarOpen = false;
-var sidebar = document.getElementById("sidebar");
-
 function openSidebar() {
-	if (!sidebarOpen) {
-		sidebar.classList.add("sidebar-responsive");
-		sidebarOpen = true;
-	}
-	// body...
+document.getElementById("sidebar").style.width = "260px";
+
+document.getElementById("header").marginLeft = "260px";
 }
-function closeSidebar(){
-	if (sidebarOpen) {
-		sidebar.classList.remove("sidebar-responsive");
-		sidebarOpen = false;
-	}
+function closeSidebar() {
+document.getElementById("sidebar").style.width = "0";
+
+document.getElementById("header").
+marginLeft = "0";
 }
+
 
         
 // barcharts
       
         var barChartOptions = {
           series: [{
-          data: [60, 55, 45, 40, 53]
+          data: [60, 55, 45, 30, 53,]
         }],
           chart: {
           type: 'bar',

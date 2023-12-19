@@ -19,7 +19,7 @@ body{
 }
 
 
-.header{
+#header{
 	grid-area: header;
 	height: 70px;
 	display: flex;
@@ -32,7 +32,7 @@ body{
 
 }
 .menu-icon{
-	display: none;
+	display: ;
 	
 }
 #sidebar {
@@ -161,14 +161,6 @@ background-color: grey;
 }
 /*EXTRA SMALL*/
 @media screen and (max-width: 576px){
-	.grid-container{
-	grid-template-columns: 1fr;
-	grid-template-rows: 0.2fr 3fr;
-	grid-template-areas: 
-	"header"
-	"sidebar"	
-	"main";
-}
 	#sidebar{
 		width: 50px;
 	}

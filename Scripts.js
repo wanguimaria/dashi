@@ -1,7 +1,7 @@
 var sidebarOpen = false;
 var sidebar = document.getElementById("sidebar");
 
-function sidebarOpen() {
+function openSidebar() {
 	if (!sidebarOpen) {
 		sidebar.classList.add("sidebar-responsive");
 		sidebarOpen = true;
@@ -11,7 +11,7 @@ function sidebarOpen() {
 function closeSidebar(){
 	if (sidebarOpen) {
 		sidebar.classList.remove("sidebar-responsive");
-		sidebarOpen=false;
+		sidebarOpen = false;
 	}
 }
 
@@ -20,9 +20,7 @@ function closeSidebar(){
       
         var barChartOptions = {
           series: [{
-          data: [44, 55, 41, 64, 22, 43, 21]
-        }, {
-          data: [53, 32, 33, 52, 13, 44, 32]
+          data: [60, 55, 45, 30, 13,]
         }],
           chart: {
           type: 'bar',
@@ -41,20 +39,20 @@ function closeSidebar(){
           offsetX: -6,
           style: {
             fontSize: '12px',
-            colors: ['#fff']
+            colors: ['#ff6347']
           }
         },
         stroke: {
           show: true,
           width: 1,
-          colors: ['#fff']
+          colors: ['#ff6347']
         },
         tooltip: {
           shared: true,
           intersect: false
         },
         xaxis: {
-          categories: [2001, 2002, 2003, 2004, 2005, 2006, 2007],
+          categories: [2019, 2020, 2021, 2022, 2023],
         },
         };
 

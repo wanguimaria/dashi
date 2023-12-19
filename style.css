@@ -153,6 +153,7 @@ background-color: grey;
 		grid-template-columns: 1fr;
 		gap: 10px;
 		margin-bottom: 0;
+		margin-left: 0px;
 	}
 	.charts{
 		grid-template-columns: 1fr;
@@ -162,11 +163,15 @@ background-color: grey;
 /*EXTRA SMALL*/
 @media screen and (max-width: 576px){
 	#sidebar{
-		width: 50px;
+		display: none;
 	}
-		.charts{
+	
+	.charts{
 		grid-template-columns: 1fr;
 		margin-top: 30px;
+	}
+	#header{
+		display: none;
 	}
 }
 

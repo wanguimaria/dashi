@@ -20,7 +20,7 @@ function closeSidebar(){
       
         var barChartOptions = {
           series: [{
-          data: [60, 55, 45, 30, 13,]
+          data: [60, 55, 45, 40, 53,]
         }],
           chart: {
           type: 'bar',

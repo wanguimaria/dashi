@@ -26,14 +26,42 @@ body{
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 30px 0 30px;
+	background-color: whitesmoke;
 	box-shadow: 0 6px 7px-3px rgba(0,0,0,0.35);
-
-
+	gap: ;
 
 }
 .menu-icon{
 	display: ;
 	
+}
+.search{
+	padding-left: 800px;
+	width: 60px;
+	display: flex;
+	border-collapse: collapse;
+	border-radius: 5px;
+	align-items: center;
+}
+.search input{
+	border-collapse: collapse;
+	border-radius: 5px;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  width: 120px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.search i{
+	border: 1px solid white;
+	border-radius: 5PX;
+	background-color: white;
+	font-size: 22px;
+	border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
 }
 #sidebar {
 	grid-area: sidebar;
@@ -63,14 +91,24 @@ font-family: monospace;
 justify-content: space between;
 display: flex;
 gap: 10px;
+color: black;
 
 }
-.sidebar-listing li i{
+.sidebar-listing li a{
 	
-	font-size: 15px;
+	text-decoration: none;
+	color: black;
 }
+	.sidebar-listing li a:hover{
+		color: blue;
+	}
+
 .sidebar-listing li:hover{
 	color: blue;
+}
+.sidebar-listing li span{
+	color: blue;
+	gap: 10px;
 }
 .sidebar-responsive{
 	display: inline !important;
@@ -79,7 +117,7 @@ gap: 10px;
 }
 .main-container {
 	grid-area: main;
-	background-color: beige;
+	background-color: white;
 	overflow-y: auto;
 	padding: 20px 20px;
 }
@@ -100,6 +138,7 @@ gap: 10px;
   padding: 25px;
   border-radius: 6px;
 
+
 }
 .card:first-child {
   background-color: #2962ff;
@@ -119,6 +158,52 @@ background-color: grey;
   align-items: center;
   justify-content: space-between;
 }
+.main-cards2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 20px 0;
+}
+.card2{
+	display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 25px;
+  border-radius: 6px;
+
+}
+.card2:first-child {
+  background-color: white;
+}
+.card2:nth-child(2) {
+  background-color:  white;
+}
+.card2:nth-child(3){
+  background-color: white;
+}
+.card2:nth-child(4){
+background-color: white;
+
+}
+.card2:nth-child(5){
+background-color: white;
+
+}
+.card2:nth-child(6){
+background-color: white;
+
+}
+.card-inner2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-inner2 img{
+	width: 100px;
+	height: 100px;
+	background-color: whitesmoke;
+}
+
 .charts{
   grid-template-columns: 1fr 1fr;
   display: grid;
